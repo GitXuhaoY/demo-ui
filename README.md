@@ -21,12 +21,14 @@ npm run lint
 ``` -->
 ## UI
 ```
+    下载： npm i ex-example-ui
     引入：
         全局引入：
             import demoUI from "demo-ui";
             import "demo-ui/lib/"
         按需引入：
             下载插件：npm i babel-plugin-import -D
+
             babel.config.js配置：
             plugins: [
                 ['import', {
@@ -35,11 +37,15 @@ npm run lint
                 style:true
                 }, 'demo-ui']
             ]
-            
-            import { deButton } from "demo-ui"
-            components:{
-                deButton
-            }
+
+            全局使用
+                import { deButton } from "demo-ui"
+                Vue.use(deButton)
+            单文件使用：
+                import { deButton } from "demo-ui"
+                components:{
+                    deButton
+                }
 ```
 ### BUTTON组件
 ```

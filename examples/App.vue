@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import deButton from './../packages/x-button'
+import deButton from './../packages/button'
 
 export default {
     name: 'App',
@@ -37,7 +37,7 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
-  /deep/.de-button {
+  /deep/.ex-button {
     width: 5rem;
     display: block;
     margin: auto;

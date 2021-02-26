@@ -1,5 +1,5 @@
 // 导入组件
-import deButton from './x-button';
+import deButton from './button';
 // 储存组件列表
 const components = [
     deButton
