@@ -1,0 +1,13 @@
+@mixin one-px-border($color: #eee,){
+    &::after {
+        position: absolute;
+        left: 0;
+        top: 0;
+        border: 1px solid $color;
+        width: 200%;
+        height: 200%;
+        content: "";
+        transform: scale(.5);
+        transform-origin: left top;
+    }
+}

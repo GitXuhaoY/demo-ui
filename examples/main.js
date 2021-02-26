@@ -3,7 +3,11 @@ import App from './App.vue'
 import './registerServiceWorker'
 
 Vue.config.productionTip = false
-
+Vue.$DEFAULT = {
+  // size: "medium",
+  size: "small",
+  // small / mini
+}
 new Vue({
   render: h => h(App),
 }).$mount('#app')
