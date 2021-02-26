@@ -5,6 +5,10 @@
   "private": false,
   "author": "Xu",
   "main": "lib/xui.umd.min.js",
+  "repository":{
+    "type": "git",
+    "url": "https://github.com/GitXuhaoY/demo-ui.git"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",

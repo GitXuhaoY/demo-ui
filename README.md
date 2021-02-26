@@ -26,6 +26,16 @@ npm run lint
             import demoUI from "demo-ui";
             import "demo-ui/lib/"
         按需引入：
+            下载插件：npm i babel-plugin-import -D
+            babel.config.js配置：
+            plugins: [
+                ['import', {
+                libraryName: 'demo-ui',
+                libraryDirectory: 'es',
+                style:true
+                }, 'demo-ui']
+            ]
+            
             import { deButton } from "demo-ui"
             components:{
                 deButton
