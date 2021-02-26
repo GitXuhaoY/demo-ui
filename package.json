@@ -4,7 +4,7 @@
   "description": "demo-ui demoui",
   "private": false,
   "author": "Xu",
-  "main": "lib/xui.umd.min.js",
+  "main": "lib/demoUI.umd.min.js",
   "repository":{
     "type": "git",
     "url": "https://github.com/GitXuhaoY/demo-ui.git"
@@ -13,7 +13,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "lib": "vue-cli-service build --target lib --name xui --dest lib packages/index.js packages/index.scss"
+    "lib": "vue-cli-service build --target lib --name demoUI --dest lib packages/index.js packages/index.scss"
   },
   "dependencies": {
     "core-js": "^3.6.5",
